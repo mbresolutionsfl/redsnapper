@@ -37,8 +37,8 @@ export default function Home() {
             Coastal Living, Expertly Managed
           </h2>
           <p className="text-lg max-w-2xl mx-auto mb-6">
-            Red Snapper Realty is a full-service brokerage along Florida’s east
-            coast specializing in property management.
+            Red Snapper Realty is a full-service brokerage along Florida’s east coast specializing in property management while helping buyers and sellers find their dream coastal homes.
+            
           </p>
 
           <a
@@ -56,8 +56,8 @@ export default function Home() {
       <section id="about" className="py-20 max-w-5xl mx-auto px-6 text-center">
         <h3 className="text-3xl font-semibold text-red-700 mb-6">About Us</h3>
         <p className="text-gray-400 max-w-3xl mx-auto">
-          Based along Florida’s east coast, Red Snapper Realty combines market
-          expertise with personalized service.
+          Based along Florida’s stunning east coast, Red Snapper Realty combines local market expertise with personalized service. We specialize in property management and offer comprehensive brokerage services for buyers and sellers who want to experience the best of coastal living.
+          
         </p>
       </section>
 
@@ -71,7 +71,7 @@ export default function Home() {
               <div className="h-12 w-12 bg-red-700 rounded mb-4" />
               <h4 className="font-semibold text-xl mb-2">Property Management</h4>
               <p className="text-gray-600 text-sm">
-                We manage coastal properties with care and professional oversight.
+                We manage coastal properties with care — from tenant placement and maintenance to financial oversight and owner reporting.
               </p>
             </div>
 
@@ -79,7 +79,7 @@ export default function Home() {
               <div className="h-12 w-12 bg-red-700 rounded mb-4" />
               <h4 className="font-semibold text-xl mb-2">Buying a Home</h4>
               <p className="text-gray-600 text-sm">
-                Let us help you find your perfect coastal retreat.
+                Let us help you find your perfect coastal retreat. Our agents provide personalized guidance every step of the way.
               </p>
             </div>
 
@@ -87,7 +87,7 @@ export default function Home() {
               <div className="h-12 w-12 bg-red-700 rounded mb-4" />
               <h4 className="font-semibold text-xl mb-2">Selling Your Home</h4>
               <p className="text-gray-600 text-sm">
-                We make selling smooth and rewarding along Florida’s coast.
+                From strategic marketing to expert negotiation, we make selling along Florida’s east coast smooth and rewarding.
               </p>
             </div>
           </div>
@@ -98,7 +98,7 @@ export default function Home() {
       <section id="contact" className="py-20 max-w-5xl mx-auto px-6 text-center">
         <h3 className="text-3xl font-semibold text-red-700 mb-6">Contact Us</h3>
         <p className="text-gray-400 mb-8">
-          Have questions? We’d love to connect.
+          Have questions or ready to start your coastal real estate journey? We’d love to connect.
         </p>
 
         <form
