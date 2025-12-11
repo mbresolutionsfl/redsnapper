@@ -102,7 +102,7 @@ export default function Home() {
         </p>
 
         <form
-          action="https://formsubmit.co/mbresolutionsfl@gmail.com"
+          action="https://formsubmit.co/04987e1454334b82bbf278a8f84009b0"
           method="POST"
           className="max-w-xl mx-auto flex flex-col gap-4 text-left"
         >
