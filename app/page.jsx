@@ -54,7 +54,17 @@ export default function Home() {
 
       {/* About Section */}
       <section id="about" className="py-20 max-w-5xl mx-auto px-6 text-center">
-        <h3 className="text-3xl font-semibold text-red-700 mb-6">About Us</h3>
+  {/* Red Snapper Logo */}
+  <img
+    src="/red-snapper-logo.png"
+    alt="Red Snapper Realty Logo"
+    className="mx-auto mb-6 w-32 md:w-40"
+  />
+
+  <h3 className="text-3xl font-semibold text-red-700 mb-6">
+    About Us
+  </h3>
+
         <p className="text-gray-400 max-w-3xl mx-auto">
           Based along Florida’s stunning east coast, Red Snapper Realty combines local market expertise with personalized service. We specialize in property management and offer comprehensive brokerage services for buyers and sellers who want to experience the best of coastal living.
           
