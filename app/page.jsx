@@ -58,7 +58,7 @@ export default function Home() {
   <img
   src="/red-snapper-logo.png"
   alt="Red Snapper Realty Logo"
-  className="mx-auto mb-8 w-48 md:w-64 lg:w-72"
+  className="mx-auto mb-8 w-56 md:w-72 lg:w-80"
 />
 
 
