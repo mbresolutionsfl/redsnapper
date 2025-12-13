@@ -56,10 +56,11 @@ export default function Home() {
       <section id="about" className="py-20 max-w-5xl mx-auto px-6 text-center">
   {/* Red Snapper Logo */}
   <img
-    src="/red-snapper-logo.png"
-    alt="Red Snapper Realty Logo"
-    className="mx-auto mb-6 w-32 md:w-40"
-  />
+  src="/red-snapper-logo.png"
+  alt="Red Snapper Realty Logo"
+  className="mx-auto mb-8 w-48 md:w-64 lg:w-72"
+/>
+
 
   <h3 className="text-3xl font-semibold text-red-700 mb-6">
     About Us
