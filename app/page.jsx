@@ -37,7 +37,7 @@ export default function Home() {
             Coastal Living, Expertly Managed
           </h2>
           <p className="text-lg max-w-2xl mx-auto mb-6">
-            Red Snapper Realty is a full-service brokerage along Florida’s east coast specializing in property management while helping buyers find their coastal dream homes, and also helping sellers with their next chapter. 
+            Red Snapper Realty is a full-service brokerage along Volusia county Florida’s east coast specializing in property management while helping buyers find their coastal dream homes, and also helping sellers with their next chapter. 
             
           </p>
 
