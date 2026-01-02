@@ -67,7 +67,7 @@ export default function Home() {
   </h3>
 
         <p className="text-gray-400 max-w-3xl mx-auto">
-          Based along Florida’s stunning east coast, Red Snapper Realty combines local market expertise with personalized service. We specialize in property management and offer comprehensive brokerage services for buyers and sellers who want to experience the best of coastal living.
+          Based along Volusia county Florida’s stunning east coast, Red Snapper Realty combines local market expertise with personalized service. We specialize in property management and offer comprehensive brokerage services for buyers and sellers who want to experience the best of coastal living.
           
         </p>
       </section>
