@@ -20,7 +20,6 @@ export default function Home() {
             <a href="#contact" className="hover:text-red-600">Contact</a>
           </nav>
 
-          {/* Updated button → scrolls to contact form */}
           <a
             className="px-4 py-2 bg-red-700 hover:bg-red-800 text-white rounded-xl"
             href="#contact"
@@ -36,50 +35,50 @@ export default function Home() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
             Coastal Living, Expertly Managed
           </h2>
+
           <p className="text-lg max-w-2xl mx-auto mb-6">
-            Red Snapper Realty is a full-service brokerage along Volusia county Florida’s east coast specializing in property management while helping buyers find their coastal dream homes, and also helping sellers with their next chapter. 
-            
+            Red Snapper Realty is a full-service brokerage along Volusia County Florida’s east coast specializing in property management while helping buyers find their coastal dream homes, and also helping sellers with their next chapter.
           </p>
 
-          <a
-  className="px-4 py-2 bg-red-700 hover:bg-red-800 text-white rounded-xl inline-block"
-  href="https://www.realtor.com/realestateandhomes-search/Volusia-County_FL"
-  target="_blank"
-  rel="noreferrer"
->
-  View Available Homes For Sale
-</a>
+          {/* Buttons */}
+          <div className="flex flex-col md:flex-row gap-4 justify-center">
 
-{/* New Rent button */}
-<div className="mt-4">
-  <a
-    className="px-4 py-2 bg-white hover:bg-gray-200 text-black rounded-xl inline-block"
-    href="https://www.realtor.com/apartments/Volusia-County_FL"
-    target="_blank"
-    rel="noreferrer"
-  >
-    View Available Homes For Rent
-  </a>
-</div>
+            <a
+              className="px-4 py-2 bg-red-700 hover:bg-red-800 text-white rounded-xl inline-block"
+              href="https://www.realtor.com/realestateandhomes-search/Volusia-County_FL"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Available Homes For Sale
+            </a>
+
+            <a
+              className="px-4 py-2 bg-white hover:bg-gray-200 text-black rounded-xl inline-block"
+              href="https://www.realtor.com/apartments/Volusia-County_FL"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Available Homes For Rent
+            </a>
+
+          </div>
+        </div>
       </section>
 
       {/* About Section */}
       <section id="about" className="py-20 max-w-5xl mx-auto px-6 text-center">
-  {/* Red Snapper Logo */}
-  <img
-  src="/red-snapper-logonew.png"
-  alt="Red Snapper Realty Logo"
-  className="mx-auto mb-8 w-56 md:w-72 lg:w-80"
-/>
+        <img
+          src="/red-snapper-logonew.png"
+          alt="Red Snapper Realty Logo"
+          className="mx-auto mb-8 w-56 md:w-72 lg:w-80"
+        />
 
-
-  <h3 className="text-3xl font-semibold text-red-700 mb-6">
-    About Us
-  </h3>
+        <h3 className="text-3xl font-semibold text-red-700 mb-6">
+          About Us
+        </h3>
 
         <p className="text-gray-400 max-w-3xl mx-auto">
-          Based along Volusia county Florida’s stunning east coast, Red Snapper Realty combines local market expertise with personalized service. We specialize in property management and offer comprehensive brokerage services for buyers and sellers who want to experience the best of coastal living.
-          
+          Based along Volusia County Florida’s stunning east coast, Red Snapper Realty combines local market expertise with personalized service. We specialize in property management and offer comprehensive brokerage services for buyers and sellers who want to experience the best of coastal living.
         </p>
       </section>
 
@@ -119,6 +118,7 @@ export default function Home() {
       {/* Contact Section */}
       <section id="contact" className="py-20 max-w-5xl mx-auto px-6 text-center">
         <h3 className="text-3xl font-semibold text-red-700 mb-6">Contact Us</h3>
+
         <p className="text-gray-400 mb-8">
           Have questions or ready to start your coastal real estate journey? We’d love to connect.
         </p>
@@ -128,7 +128,6 @@ export default function Home() {
           method="POST"
           className="max-w-xl mx-auto flex flex-col gap-4 text-left"
         >
-          {/* Spam protection */}
           <input type="hidden" name="_captcha" value="false" />
           <input type="text" name="_honey" style={{ display: 'none' }} />
 
@@ -174,8 +173,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-red-900 text-white py-6 text-center">
         <p>
-          &copy; {new Date().getFullYear()} Red Snapper Realty. All rights
-          reserved.
+          &copy; {new Date().getFullYear()} Red Snapper Realty. All rights reserved.
         </p>
       </footer>
     </div>
