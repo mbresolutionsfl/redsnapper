@@ -18,6 +18,7 @@ export default function Home() {
             <a href="#about" className="hover:text-red-600">About</a>
             <a href="#services" className="hover:text-red-600">Services</a>
             <a href="#contact" className="hover:text-red-600">Contact</a>
+            <a href="tel:13862932321" className="hover:text-red-600">(386) 293-2321</a>
           </nav>
 
           <a
@@ -53,7 +54,7 @@ export default function Home() {
             </a>
 
             <a
-              className="px-4 py-2 bg-white hover:bg-gray-200 text-black rounded-xl inline-block"
+              className="px-4 py-2 bg-red-700 hover:bg-red-800 text-white rounded-xl inline-block"
               href="https://www.realtor.com/apartments/Volusia-County_FL"
               target="_blank"
               rel="noreferrer"
@@ -123,59 +124,7 @@ export default function Home() {
           Have questions or ready to start your coastal real estate journey? We’d love to connect.
         </p>
 
-        <form
-          action="https://formsubmit.co/04987e1454334b82bbf278a8f84009b0"
-          method="POST"
-          className="max-w-xl mx-auto flex flex-col gap-4 text-left"
-        >
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="text" name="_honey" style={{ display: 'none' }} />
+        {/* Direct contact info */}
+        <div className="mb-8 text-gray-300">
+          <p>📍 100 East Granada Boulevard, Ormond Beach, Flor
 
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Name"
-            required
-            className="p-3 rounded bg-white text-black"
-          />
-
-          <input
-            type="email"
-            name="email"
-            placeholder="Email Address"
-            required
-            className="p-3 rounded bg-white text-black"
-          />
-
-          <input
-            type="text"
-            name="phone"
-            placeholder="Phone Number (Optional)"
-            className="p-3 rounded bg-white text-black"
-          />
-
-          <textarea
-            name="inquiry"
-            placeholder="Your Inquiry"
-            required
-            className="p-3 rounded bg-white text-black h-32"
-          />
-
-          <button
-            type="submit"
-            className="px-4 py-2 bg-red-700 hover:bg-red-800 text-white rounded-xl"
-          >
-            Send Inquiry
-          </button>
-        </form>
-      </section>
-
-      {/* Footer */}
-      <footer className="bg-red-900 text-white py-6 text-center">
-        <p>
-          &copy; {new Date().getFullYear()} Red Snapper Realty. All rights reserved.
-        </p>
-      </footer>
-    </div>
-  );
-}
