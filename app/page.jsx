@@ -42,14 +42,25 @@ export default function Home() {
           </p>
 
           <a
-            className="px-4 py-2 bg-red-700 hover:bg-red-800 text-white rounded-xl inline-block"
-            href="https://www.realtor.com/realestateandhomes-search/Volusia-County_FL"
-            target="_blank"
-            rel="noreferrer"
-          >
-            View Available Homes For Sale
-          </a>
-        </div>
+  className="px-4 py-2 bg-red-700 hover:bg-red-800 text-white rounded-xl inline-block"
+  href="https://www.realtor.com/realestateandhomes-search/Volusia-County_FL"
+  target="_blank"
+  rel="noreferrer"
+>
+  View Available Homes For Sale
+</a>
+
+{/* New Rent button */}
+<div className="mt-4">
+  <a
+    className="px-4 py-2 bg-white hover:bg-gray-200 text-black rounded-xl inline-block"
+    href="https://www.realtor.com/apartments/Volusia-County_FL"
+    target="_blank"
+    rel="noreferrer"
+  >
+    View Available Homes For Rent
+  </a>
+</div>
       </section>
 
       {/* About Section */}
