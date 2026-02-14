@@ -126,5 +126,69 @@ export default function Home() {
 
         {/* Direct contact info */}
         <div className="mb-8 text-gray-300">
-          <p>📍 100 East Granada Boulevard, Ormond Beach, Flor
+          <p>📍 100 East Granada Boulevard, Ormond Beach, Florida 32176</p>
+          <p>
+            📞 <a href="tel:13862932321" className="text-red-600">(386) 293-2321</a>
+          </p>
+        </div>
+
+        <form
+          action="https://formsubmit.co/04987e1454334b82bbf278a8f84009b0"
+          method="POST"
+          className="max-w-xl mx-auto flex flex-col gap-4 text-left"
+        >
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="text" name="_honey" style={{ display: 'none' }} />
+
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+            className="p-3 rounded bg-white text-black"
+          />
+
+          <input
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required
+            className="p-3 rounded bg-white text-black"
+          />
+
+          <input
+            type="text"
+            name="phone"
+            placeholder="Phone Number (Optional)"
+            className="p-3 rounded bg-white text-black"
+          />
+
+          <textarea
+            name="inquiry"
+            placeholder="Your Inquiry"
+            required
+            className="p-3 rounded bg-white text-black h-32"
+          />
+
+          <button
+            type="submit"
+            className="px-4 py-2 bg-red-700 hover:bg-red-800 text-white rounded-xl"
+          >
+            Send Inquiry
+          </button>
+        </form>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-red-900 text-white py-8 text-center">
+        <p className="font-semibold">Red Snapper Realty</p>
+        <p>100 East Granada Boulevard, Ormond Beach, Florida 32176</p>
+        <p>(386) 293-2321</p>
+        <p className="mt-2">
+          &copy; {new Date().getFullYear()} Red Snapper Realty. All rights reserved.
+        </p>
+      </footer>
+    </div>
+  );
+}
 
