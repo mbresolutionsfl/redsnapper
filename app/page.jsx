@@ -79,7 +79,7 @@ export default function Home() {
         </h3>
 
         <p className="text-gray-400 max-w-3xl mx-auto">
-          Based along Volusia County Florida’s stunning east coast, Red Snapper Realty combines local market expertise with personalized service. We specialize in property management and offer comprehensive brokerage services for buyers and sellers who want to experience the best of coastal living. Areas of concentration include Ormond Beach, Daytona Beach, Daytona Beach Shore, Ponce Inlet, Port Orange, New Smyrna Beach, Edgewater, and Oak Hill.
+          Based along Volusia County Florida’s stunning east coast, Red Snapper Realty combines local market expertise with personalized service. We specialize in property management and offer comprehensive brokerage services for buyers and sellers who want to experience the best of coastal living. Areas of concentration include Ormond Beach, Daytona Beach, Daytona Beach Shores, Ponce Inlet, Port Orange, New Smyrna Beach, Edgewater, and Oak Hill.
         </p>
       </section>
 
