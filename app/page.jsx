@@ -38,7 +38,7 @@ export default function Home() {
           </h2>
 
           <p className="text-lg max-w-2xl mx-auto mb-6">
-            Red Snapper Realty is a full-service brokerage along Volusia County Florida’s east coast specializing in property management while helping buyers find their coastal dream homes, and also helping sellers with their next chapter.
+            Red Snapper Realty is a full-service brokerage along Volusia County Florida’s east coast specializing in property management while helping buyers find their coastal dream homes, and also helping sellers with their next chapter. From Palm Coast to Oak Hill, and anywhere in between, you've found your one stop shop for residential real estate needs.
           </p>
 
           {/* Buttons */}
@@ -79,7 +79,7 @@ export default function Home() {
         </h3>
 
         <p className="text-gray-400 max-w-3xl mx-auto">
-          Based along Volusia County Florida’s stunning east coast, Red Snapper Realty combines local market expertise with personalized service. We specialize in property management and offer comprehensive brokerage services for buyers and sellers who want to experience the best of coastal living.
+          Based along Volusia County Florida’s stunning east coast, Red Snapper Realty combines local market expertise with personalized service. We specialize in property management and offer comprehensive brokerage services for buyers and sellers who want to experience the best of coastal living. Areas of concentration include Ormond Beach, Daytona Beach, Daytona Beach Shore, Ponce Inlet, Port Orange, New Smyrna Beach, Edgewater, and Oak Hill.
         </p>
       </section>
 
